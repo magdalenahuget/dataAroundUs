@@ -42,9 +42,59 @@ console.log(title);
 let author = "J. R. R. Tolkien";
 console.log(author);
 
-let year = 1954
-console.log(year)
+let year = 1954;
+console.log(year);
 
+let isNewerThan2000 = false;
+console.log(isNewerThan2000);
+
+let age = 2022 - year;
+console.log(age);
+
+let characters = ["Frodo", "Gollum", "Gandalf", "Legolas"];
+console.log(characters);
+console.log(characters[0]);
+console.log(characters[1]);
+
+// Mój OBIEKT
+
+let favoriteBook = {title: "The Lord of the Rings"
+    , author: "J. R. R. Tolkien"
+    , year: 1954
+    , isNewerThan2000: false
+    , age: 2022 - 1954
+    , characters: ["Frodo", "Gollum", "Gandalf", "Legolas"]};
+console.log(favoriteBook);
+
+console.log(favoriteBook.author)
+console.log(favoriteBook["year"])
+
+console.log(favoriteBook.characters[0])
+
+let secondFavoriteBook = {title: "Harry Potter and the Philosopher's Stone"
+, author: "J. K. Rowling"
+, year: 1997
+, isNewerThan2000: false
+, age: 2022 - 1997
+, characters: ["Harry Potter", "Albus Dumbledore", "Hermiona Granger", "Lord Voldemort"]};
+
+let favoriteBooks = [favoriteBook, secondFavoriteBook]
+
+console.log(favoriteBooks[1].title)
+console.log(favoriteBooks[1].characters[0])
+
+//Calculations
+
+let bookAgeDifference = favoriteBooks[1].age - favoriteBooks[0].age;
+
+let bookAgeDifference2 = 25
+let bookAgeDifference3 = 68
+
+if (bookAgeDifference < 0) {
+    bookAgeDifference = bookAgeDifference * (-1)
+}
+
+console.log(bookAgeDifference)
 
 // DO NOT MODIFY THE CODE BELOW THIS LINE
 let toExport;
