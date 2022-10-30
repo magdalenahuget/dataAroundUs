@@ -36,6 +36,15 @@ console.log(exampleVariable);
 
 // WRITE YOUR CODE BELOW THIS LINE
 
+let title = "The Lord of the Rings";
+console.log(title);
+
+let author = "J. R. R. Tolkien";
+console.log(author);
+
+let year = 1954
+console.log(year)
+
 
 // DO NOT MODIFY THE CODE BELOW THIS LINE
 let toExport;
